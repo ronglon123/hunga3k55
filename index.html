@@ -1,17 +1,73 @@
 <html>
+<style>
+  @keyframes slideRight {
+  0% {
+      opacity: 0;
+      transform: translateX(-80px);
+  }
+
+  100% {
+      opacity: 100%;
+      transform: translateX(0);
+  }
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+body {
+  background-image: url("img2.jpg");
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h1, h2, h3, ul
+{
+  opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .5s;
+}
+.player
+{
+  aspect-ratio: 16/9;
+  width: 50%;
+  opacity: 0;
+  animation: fadeIn .4s ease forwards;
+  animation-delay: .5s;
+}
+</style>
 <head>
  <title>Giới thiệu bản thân</title>
 </head>
 <body>
+
 <h1>Giới thiệu về bản thân:</h1>
-<h2>Tôi tên là Nguyễn Xuân Hùng  .</h2>
+<h2>Tôi tên là <a href="https://www.https://www.facebook.com/xuanhung1304"><span style="color: #ff0000"><b>[Nguyen Xuan Hung]</b></span></a>  .</h2>
 <ul>
  <li>Sinh:13/4/2006</li>
  <li>Học sinh lớp:12A3</li>
- <li>Quê:tp Vinh,Nghệ An</li>
+ <li>Quê:tp Thanh Lâm-Thanh Chương</li>
  <li>Chiều Cao:1m70</li>
  <li>Cân Nặng:75kg</li>
- <li>Sở thích:nghe nhạc,xem phim,chơi game</li>
+ <li>Sở thích:Chơi nhởi, ăn uống </li>
+</ul>
+<h3>Giới thiệu thành viên trong tổ</h3>
+<ul>
+    <li>Phúc Nam Anh:</li>
+    <li>Trần Nguyễn Duy Anh </li>
+    <li>Đặng Thái Chiến</li>
+    <li>Lê Viết Chiến</li>
+    <li>Trần Văn Dũng</li>
+    <li>Nguyễn Lê Phước Duy</li>
+    <li>Trần Đăng Dương: Đã đi du học</li>
+    <li>Nguyễn Hữu Anh Đức</li>
+    <li>Bùi Nhật Hiếu</li>
+    <li>Đinh Quang Hiệu</li>
+    <li>Nguyễn Xuân Hùng</li>
 </ul>
 <h3>Giới thiệu các thành viên trong lớp</h3>
 <ul>
@@ -23,13 +79,14 @@
     <li>Tổ trưởng tổ 3:Nguyễn Quang Minh</li>
     <li>Tổ trưởng tổ 4:Trần Hoàng Tiến</li>
 </ul>
-<style>
-    body {
-      background-image: url('https://dailychevrolet.vn/wp-content/uploads/2022/11/HC3ACnh-siC3AAu-xe-Lamborghini-cE1BBB1c-C491E1BAB9p-scaled.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-    }
-    </style>
+
+<section class="section2">
+  <div class="section2_container">
+    <div class="content2">
+      <iframe class="player" src="https://www.youtube.com/embed/UCzokzQwE4I?si=N09owkKE1f_zse5N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
 </body>
-</html>
+</html
