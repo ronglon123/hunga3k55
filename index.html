@@ -27,6 +27,7 @@ body {
 }
 h1, h2, h3, ul
 {
+  text-decoration: none;
   opacity: 0;
     animation: slideRight 1s ease forwards;
     animation-delay: .5s;
@@ -46,7 +47,9 @@ h1, h2, h3, ul
 <body>
 
 <h1>Giới thiệu về bản thân:</h1>
-<h2>Tôi tên là <a href="https://www.facebook.com/xuanhung1304"><span style="color: #ff0000"><b>[Nguyen Xuan Hung]</b></span></a>  .</h2>
+<h2>Tôi tên là <span style="color: #ff0000"><b>Nguyen Xuan Hung</b></span><a href="https://www.facebook.com/xuanhung1304">
+  <span style="color: #ffffff"><ion-icon name="logo-facebook"></ion-icon></span>
+</a></h2>
 <ul>
  <li>Sinh:13/4/2006</li>
  <li>Học sinh lớp:12A3</li>
@@ -83,10 +86,13 @@ h1, h2, h3, ul
 <section class="section2">
   <div class="section2_container">
     <div class="content2">
-        <iframe src="https://drive.google.com/file/d/10zzzVUi4Zb1OfG4alnyAHXeh3rQmQ9Dw/preview" width="1920" height="1080" allow="autoplay"></iframe>
+        <iframe src="https://drive.google.com/file/d/10zzzVUi4Zb1OfG4alnyAHXeh3rQmQ9Dw/preview" width="1280" height="720" allow="autoplay"></iframe>
     </div>
   </div>
 </section>
 
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
-</html
+</html>
